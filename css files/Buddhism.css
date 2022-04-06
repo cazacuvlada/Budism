@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+::selection {
+    background-color:#a7a19e ;
+    color: black;
+}
+body{
+    font-family:"Papyrus" , serif;
+    background-color:#f5f5f4;
+    overflow:hidden;
+
+}
+
+nav
+{
+   display:flex;
+    background-color:#d8d6d2;
+    color:#f5f5f4;
+    justify-content:space-around;
+    align-items:center;
+    min-height:8vh;
+
+
+}
+
+.logo .HomePage3{
+    text-shadow:  4px 4px  1px white;
+    position:relative;
+    left:80px;
+    color:#a7a19e;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:20px;
+}
+
+.nav-links{
+
+    display:flex;
+    overflow:hidden;
+    color:black;
+    justify-content:space-around;
+    align-items:center;
+    width:30%;
+    text-decoration:none;
+    font-weight:bold;
+    list-style-type: none;
+
+
+}
+
+
+li {
+    float: right;
+}
+li a {
+    font-size:130%;
+    display: block;
+    color: #a7a19e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#746d77;
+}
+
+.info1{
+    text-align:left;
+    color:#434555;
+    position:relative;
+    top:5px;
+    margin:10px;
+    padding:10px;
+    overflow:hidden;
+}
+
+.beliefs{
+    position:relative;
+    bottom:10px;
+    color:#746d77;
+    list-style-type: upper-roman;
+    list-style-position:inside ;
+    margin:10px;
+    padding:3px;
+}
+
+
+
+#BeliefsList1{
+    float:left;
+}
+#BeliefsList2{
+    float:left;
+}
+#BeliefsList3 {
+    float: left;
+}
+
+#BeliefsList4{
+    float: left;
+
+}
+#BeliefsList5{
+    float: left;
+}
+.BB{
+    text-align:left;
+    color:#746d77;
+    position:relative;
+    left:420px;
+}
+
+
+
+
+
+
+.tupesOfBuddhism{
+    position:fixed;
+}
+.typesB{
+    text-align:left;
+    color:#746d77;
+   position:absolute;
+    top:310px;
+    left:430px;
+
+
+
+}
+.typesBtext{
+    text-align:left;
+    color:#746d77;
+    position:absolute;
+    top:350px;
+    left:30px;
+    right:480px;
+}
+img{
+    width:27%;
+    height:auto;
+    position:absolute;
+    left:1070px;
+    top:150px;
+}
+#poza1{
+    width:30%;
+    height:auto;
+    position:absolute;
+    top:440px;
+    left:20px;
+}
+#poza2{
+    width:30%;
+    height:auto;
+    position:absolute;
+    top:440px;
+    left:500px;
+}
+
+.BH{
+
+    color:#746d77;
+    position:absolute;
+    top:400px;
+    left:1200px;
+}
+.textHolidays{
+    position:absolute;
+    top: 450px;
+    left:1040px;
+    right:25px;
+    color:#746d77;
+    font-size:15px;
+    border : outset 3px #434555;
+    padding:20px;
+
+}
+
+
+
+
+
+
+
