@@ -64,29 +64,18 @@ li a {
 li a:hover{
     background-color:#746d77;
 }
-#symbol1{
-    position:relative;
-    bottom:500px;
-    left:10px;
-    width:250px;
-    height:auto;
-    border: solid 2px black;
+.grid-container{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+    padding:20px;
 }
-#symbol2{
-    position:relative ;
-    bottom:500px;
-    left:10px;
-    width:250px;
+.name1{
+    position:absolute;
+    left:40px;
+}
+img{
+    width:150px;
     height:auto;
-    border: solid 2px black;
 }
 
-#symbol3{
-    position:relative;
-    bottom:500px;
-    left:10px;
-    width:250px;
-    height:auto;
-    border: solid 2px black;
-}
 

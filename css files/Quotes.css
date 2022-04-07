@@ -63,3 +63,13 @@ li a {
 li a :hover{
     background-color:#746d77;
 }
+h1{
+    text-align:center;
+}
+
+.Q{
+
+    list-style-type: square;
+    text-align: center;
+}
+
